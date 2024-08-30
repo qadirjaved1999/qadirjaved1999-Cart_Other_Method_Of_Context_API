@@ -6,6 +6,7 @@ import Cart from "./Components/Cart";
 
 function App() {
   const [themeMode, setthemeMode] = useState("light");
+  console.log(themeMode)
 
   const lightTheme =  () => {
     setthemeMode("light")
